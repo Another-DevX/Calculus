@@ -28,7 +28,7 @@ Aquí, `h` es un pequeño incremento en `x`, y `f` es la función de la cual que
 
 La derivada de una función en un punto es el límite del cociente de diferencias cuando `h` tiende a cero:
 
-\[ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} \]
+$$ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} $$
 
 Este límite describe la tasa de cambio instantánea de la función `f` en el punto `x`.
 
