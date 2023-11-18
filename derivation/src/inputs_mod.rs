@@ -3,6 +3,7 @@ pub mod inputs {
     use meval::Expr;
     use std::{io, str::FromStr as _};
 
+    // Get Point
     pub fn input_point_to_f64() -> f64 {
         let mut input: String = String::new();
 
@@ -20,7 +21,7 @@ pub mod inputs {
         };
         num
     }
-    
+   // Get Function 
     pub fn input_function() -> Option<Box<dyn Fn(f64) -> f64>> {
         let mut input = String::new();
 
