@@ -1,7 +1,7 @@
-mod derivation_mod;
-mod inputs_mod;
-use inputs_mod::inputs::{input_function, input_point_to_f64};
-use derivation_mod::derivation::derivate;
+mod derivation;
+mod inputs;
+use derivation::derivate;
+use inputs::{input_function, input_point_to_f64};
 
 fn main() {
     println!("Por favor ingrese el punto en el que desea derivar");

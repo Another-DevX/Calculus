@@ -1,4 +1,4 @@
-pub mod derivation {
+// pub mod derivation {
 
     pub fn derivate<F>(x: f64, function: F) -> Option<f64>
     where
@@ -8,7 +8,7 @@ pub mod derivation {
 
         let mut last_derivative = _derivative(x, h, &function);
 
-        while h > 1e-10 {
+        while h > 1e-35 {
             h /= 2.0;
             let current_derivative = _derivative(x, h, &function);
 
@@ -27,4 +27,4 @@ pub mod derivation {
     {
         (f(x + h) - f(x)) / h
     }
-}
+// }

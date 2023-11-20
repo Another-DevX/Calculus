@@ -1,5 +1,5 @@
 extern crate meval;
-pub mod inputs {
+// pub mod inputs {
     use meval::Expr;
     use std::{io, str::FromStr as _};
 
@@ -37,4 +37,4 @@ pub mod inputs {
             }
         }
     }
-}
+// }
