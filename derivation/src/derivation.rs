@@ -8,7 +8,7 @@
 
         let mut last_derivative = _derivative(x, h, &function);
 
-        while h > 1e-35 {
+        while h > 1e-16 {
             h /= 2.0;
             let current_derivative = _derivative(x, h, &function);
 
